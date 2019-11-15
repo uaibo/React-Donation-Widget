@@ -1,0 +1,49 @@
+.bubble{
+  background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(254,254,254,1) 100%);
+  border-radius:6px;
+  border:1px solid #e5e5e5;
+  padding:10px;
+  position:relative;
+}
+.bubble:after, .bubble:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.bubble:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #eeeeee;
+	border-width: 6px;
+	margin-top: -6px;
+}
+.bubble:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #e5e5e5;
+	border-width: 8px;
+	margin-top: -8px;
+}
+.goal,
+.raised{
+  font-size:24px;
+  text-align:center;
+  color:#7191c5;
+}
+.bubble_desc{
+  color:#fe0807;
+  display:block;
+  font-size:12px;
+  font-weight:bold;
+}
+.divider{
+  height:0px;
+  display:block;
+  width:100%;
+  border-top:1px solid #cfcfcf;
+  border-bottom:1px solid #f4f4f4;
+  margin:10px 0;
+}

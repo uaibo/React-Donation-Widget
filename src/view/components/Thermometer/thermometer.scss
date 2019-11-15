@@ -1,0 +1,97 @@
+.thermometer{
+  height:200px;
+  position:relative;
+}
+.scale_wrapper{
+  border:3px solid #dcdcdc;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width:30px;
+  min-height:200px;
+  position:relative;
+  padding-top:20px;
+  margin:0 auto;
+
+}
+.scale_line{
+  position:relative;
+  margin-bottom:15px;
+  height:3px;
+  width:100%;
+}
+.scale_line_left{
+  background: #dcdcdc;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  width:6px;
+}
+.scale_line_right{
+  background: #dcdcdc;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  width:6px;
+}
+.scale_wrapper_foooter_fixer{
+  background:#f0f0f0;
+  bottom:-10px;
+  position:absolute;
+  height:20px;
+  z-index:10;
+  width:100%;
+}
+.mercury_column{
+  position: absolute;
+  bottom: -6px;
+  width: 12px;
+  height: 12%;
+  background: #acca82;
+  border-left:1px solid #94b361;
+  border-right:1px solid #94b361;
+  z-index: 12;
+  left: 8px;
+}
+.sphere_wrapper{
+  width:60px;
+  height:60px;
+  border-radius: 60px;
+  border:3px solid #dcdcdc;
+  //background: linear-gradient(0deg, #63842b 0%, #90b557 100%);
+  position:relative;
+  top:-8px;
+  margin:0 auto;
+}
+.sphere_wrapper_fixer{
+  position:absolute;
+  width:60px;
+  height:60px;
+  background:#f0f0f0;
+  border-radius: 60px;
+}
+.mercury_bubble{
+  width:46px;
+  height:46px;
+  z-index:99;
+  background: linear-gradient(0deg, #64862f 0%, #94b361 100%);
+  border-radius: 46px;
+  margin:6px;
+  position:relative;
+  z-index:11;
+  overflow:hidden;
+  border:1px solid #94b361;
+}
+.mercury_shine{
+  width:52px;
+  height:28px;
+  z-index:99;
+  background: linear-gradient(0deg, #92b75a 0%, #b5d190 100%);
+  border-radius:18px;
+  position:relative;
+  top:-5px;
+  left:-2px;
+  margin:0 auto;
+
+}

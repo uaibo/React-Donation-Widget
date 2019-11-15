@@ -1,0 +1,17 @@
+.donations_widget{
+  position:relative;
+  background: linear-gradient(0deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);
+  border:1px solid #ddd;
+  padding:15px;
+  width:240px;
+  margin:0 auto;
+  min-height:285px;
+  display:flex;
+  font-family:arial, sans-serif;
+}
+.widget_left{
+}
+.widget_right{
+  width:100%;
+  padding-left:20px;
+}
